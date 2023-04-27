@@ -1,0 +1,33 @@
+.break {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  background: #b0d3f0;
+}
+.break img {
+  height: 100%;
+}
+.break .content {
+  transform: translateX(55%);
+  width: 28%;
+}
+.break .content h4 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+  /* Brown */
+
+  color: #5c3d2e;
+}
+.break .content p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  /* Brown */
+
+  color: #5c3d2e;
+}

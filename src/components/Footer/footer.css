@@ -1,0 +1,103 @@
+.footer {
+  max-height: 70vh;
+  min-height: 65vh;
+  position: relative;
+  background: #a2d9ff;
+  margin-top: 32vh;
+  margin-bottom: 10vh;
+}
+.footer h5 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  transform: translateY(10vh);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.head {
+  position: absolute;
+  top: -65%;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  transform: translateY(-10%);
+}
+
+.footer-content .row {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 32vh;
+}
+.footer-content .row h2 {
+  margin: 0;
+  /* font-family: 'OpenSans'; */
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: start;
+  letter-spacing: 2px;
+}
+.footer-content .row .li {
+  list-style: none;
+  left: 20px;
+  position: relative;
+  font-size: 22px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.waves-box {
+  position: absolute;
+  width: 100%;
+  bottom: -4px;
+}
+.waves {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  /*Fix for safari gap*/
+  min-height: 150px;
+  max-height: 200px;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}

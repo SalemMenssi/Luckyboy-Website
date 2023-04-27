@@ -1,0 +1,60 @@
+.Navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  z-index: 2;
+}
+.Navbar h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  /* display: contents; */
+  width: 40%;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+ul li a::before {
+  content: "";
+  position: relative;
+  bottom: -30px;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+  display: block;
+  transition: 0.2s;
+}
+ul li a:hover::before {
+  width: 100%;
+}
+.get-app {
+  padding: 12px 32px;
+  background: #a2d9ff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  transition: 0.2s;
+}
+.get-app:hover {
+  background: #6ac1ff;
+}

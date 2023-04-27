@@ -1,0 +1,21 @@
+.GetApp {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.GetApp h2 {
+  font-size: 72px;
+}
+.GetApp .btn-box {
+  display: flex;
+  justify-content: center;
+}
+.GetApp .btn-box a {
+  display: flex;
+  justify-content: center;
+}
+.GetApp .btn-box a img {
+  width: 60%;
+}
