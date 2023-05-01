@@ -5,6 +5,15 @@
   align-items: center;
   justify-content: space-around;
 }
+.GetApp p {
+  transform: translateY(-10vh);
+}
+span {
+  width: 60%;
+  height: 1px;
+  background: #444;
+  transform: translateY(-4vh);
+}
 .GetApp h2 {
   font-size: 72px;
 }
