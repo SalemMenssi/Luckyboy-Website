@@ -17,19 +17,19 @@ const Navbar = () => {
       </h1>
       <ul>
         <li>
-          <a href="#">Features</a>
+          <a href="#about">About us</a>
         </li>
         <li>
-          <a href="#">About us</a>
+          <a href="#activities">Activities</a>
         </li>
         <li>
-          <a href="#">Products</a>
+          <a href="#features">Features</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#services">Services</a>
         </li>
       </ul>
-      <a href="#" className="get-app">
+      <a href="#GetApp" className="get-app">
         Get The app
       </a>
     </div>

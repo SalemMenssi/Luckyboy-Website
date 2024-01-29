@@ -2,6 +2,7 @@ import "./home.css";
 import React from "react";
 import playStore from "../../assets/playStore.png";
 import appStore from "../../assets/appStore.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Home = () => {
   return (

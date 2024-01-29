@@ -6,7 +6,7 @@ import product2 from "../../assets/product2.png";
 
 const Products = () => {
   return (
-    <div id="products" className="products">
+    <div id="activities" className="products">
       <h2>Our Activities</h2>
 
       <div className="products-box">

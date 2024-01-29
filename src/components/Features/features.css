@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin: 10px 12%;
+  margin: 7em 12%;
 }
 h2 {
   font-family: "Nunito";
@@ -28,6 +28,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-top: 5em;
 }
 .features-box .feature {
   width: 26%;
