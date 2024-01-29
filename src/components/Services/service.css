@@ -25,6 +25,7 @@
 .service img {
   margin-right: 2%;
   border-radius: 25px;
+  box-shadow: inset 0 0 10px #333;
 }
 .service .service-content {
 }
@@ -44,4 +45,6 @@
   font-size: 22px;
   font-family: "Poppins";
   font-weight: 400;
+  text-align: start;
+  margin-left: 5%;
 }

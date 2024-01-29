@@ -106,7 +106,7 @@ const Footer = () => {
           </g>
         </svg>
       </div>
-      <h5>© 2021 Luckyboy. All right reserved.</h5>
+      <h5>© 2021 Luckyboy. All rights reserved.</h5>
     </div>
   );
 };
