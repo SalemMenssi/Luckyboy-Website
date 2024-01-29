@@ -9,7 +9,6 @@ const Services = () => {
   return (
     <div id="services" className="services">
       <h2>Our Sevices</h2>
-      <p>To enjoy our services , get the app </p>
       <div className="services-box">
         <div className="service">
           <img src={service} alt="service" />

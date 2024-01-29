@@ -17,16 +17,16 @@ const Navbar = () => {
       </h1>
       <ul>
         <li>
-          <a href="#about">About us</a>
+          <a href="#features">Home</a>
         </li>
         <li>
           <a href="#activities">Activities</a>
         </li>
         <li>
-          <a href="#features">Features</a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
         </li>
       </ul>
       <a href="#GetApp" className="get-app">

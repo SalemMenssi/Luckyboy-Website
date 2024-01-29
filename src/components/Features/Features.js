@@ -26,53 +26,32 @@ const Features = () => {
             <img src={f1} alt="logo" />
 
             <h4>Good Quality</h4>
-            <p>
-              Our high-quality kayaks and paddles are well-maintained and
-              suitable for all skill levels.
-            </p>
+            <p>Well-maintained high-quality kayaks and paddles</p>
           </div>
           <div className="feature">
             <img src={f2} alt="logo" />
             <h4>Equipment</h4>
-            <p>
-              We offer a wide range of kayaks and paddles to cater to different
-              skill levels and interests.
-            </p>
+            <p>A wide range of kayaks and paddles for different skill levels</p>
           </div>
           <div className="feature">
             <img src={f3} alt="logo" />
             <h4>Expert staff</h4>
-            <p>
-              Our knowledgeable staff are passionate about kayaking and
-              paddleboarding and are here to provide expert guidance and advice.
-            </p>
+            <p>Our knowledgeable staff are here to provide expert guidance</p>
           </div>
           <div className="feature">
             <img src={f4} alt="logo" />
             <h4>Convenience</h4>
-            <p>
-              Our online reservations, flexible rental periods, and easy pickup
-              and drop-off locations make renting kayaks and paddles from us a
-              hassle-free and convenient experience.
-            </p>
+            <p>online reservations, flexible rental period</p>
           </div>
           <div className="feature">
             <img src={f5} alt="logo" />
             <h4>Safety</h4>
-            <p>
-              We prioritize safety above all else, offering life jackets and
-              other safety equipment as well as tips and guidance on safe
-              kayaking and paddleboarding practices.
-            </p>
+            <p>offering life jackets and other safety equipment</p>
           </div>
           <div className="feature">
             <img src={f6} alt="logo" />
             <h4>Location</h4>
-            <p>
-              Our shop is located in an ideal spot that offers easy access to a
-              variety of waterways, allowing you to fully explore the natural
-              surroundings.
-            </p>
+            <p>Ideal spot that offers easy access to a variety of waterways;</p>
           </div>
         </div>
       </ScrollAnimation>

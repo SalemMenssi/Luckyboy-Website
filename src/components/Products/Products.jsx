@@ -16,28 +16,20 @@ const Products = () => {
         <div className="product">
           <img src={product} alt="product" />
           <h4>Surf</h4>
-          <p>
-            Welcome to our kayak and paddle rental shop, where we offer you the
-            chance to discover the beauty of nature in a whole new way. Our
-            high-quality kayaks and paddles are perfect for a fun and exciting
-            adventure on the water.
-          </p>
+          <p>Thrilling water sport involving riding waves on a surfboard</p>
         </div>
         <div className="product">
           <img src={product1} alt="product" />
           <h4>Kayak</h4>
           <p>
-            Kayaking is an exhilarating and unique way to explore the great
-            outdoors, offering a perspective on nature that you simply can't get
-            from land
+            Unique way to explore the sea, offering a perspective on nature.
           </p>
         </div>
         <div className="product">
           <img src={product2} alt="product" />
           <h4>Paddle</h4>
           <p>
-            The sense of freedom and tranquility that comes with paddling your
-            way through the water is truly unmatched
+            Exiting sense of freedom with paddling your way through the water.
           </p>
         </div>
       </div>

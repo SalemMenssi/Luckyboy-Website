@@ -11,6 +11,9 @@
 .products p {
   width: 70%;
   margin-bottom: 5em;
+  color: #596778;
+
+  text-align: center;
 }
 .products-box {
   display: flex;
@@ -53,4 +56,8 @@
 }
 .product p {
   margin: 5% 0 10% 0;
+  color: #596778;
+  width: 85%;
+  font-size: 22px;
+  font-family: "Poppins";
 }

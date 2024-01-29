@@ -3,7 +3,7 @@
   align-items: center;
   height: 70vh;
   background: #fff3e0;
-  margin-top: 40vh;
+  /* margin-top: 40vh; */
   overflow: hidden;
   background-image: url(../../assets/breakBG.png);
   background-size: cover;

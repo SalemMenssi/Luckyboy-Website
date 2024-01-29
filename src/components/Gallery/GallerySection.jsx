@@ -46,8 +46,8 @@ const images = [
 
 const GallerySection = () => {
   return (
-    <div className="gallery-container">
-      <h2 style={{ marginBottom: "2em" }}>Gallery</h2>
+    <div id="gallery" className="gallery-container">
+      <h2 style={{ marginBottom: "1em" }}>Gallery</h2>
       <div className="image-box">
         {images.map((e) => (
           <div className="pic" key={e.id}>

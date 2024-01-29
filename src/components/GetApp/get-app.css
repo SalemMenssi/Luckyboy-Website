@@ -8,6 +8,10 @@
 }
 .GetApp p {
   transform: translateY(-10vh);
+  color: #596778;
+
+  font-size: 22px;
+  font-family: "Poppins";
 }
 span {
   width: 60%;

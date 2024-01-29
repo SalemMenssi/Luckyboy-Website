@@ -2,7 +2,7 @@
   max-height: 60vh;
   min-height: 60vh;
   position: relative;
-  background: #3c84ac;
+  background: #5ac2e3;
   margin-top: 32vh;
 }
 .footer h5 {
@@ -25,6 +25,7 @@
 .head {
   position: absolute;
   top: -65%;
+  fill: #5ac2e3;
 }
 .footer-content {
   display: flex;

@@ -15,6 +15,7 @@
   width: 40%;
   display: flex;
   margin: 5vh 1em;
+  max-height: 12em;
   transition: 0.3s;
 }
 .service:hover {
@@ -31,11 +32,16 @@
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 33px;
   color: #f68a72;
   margin-left: 5%;
 }
 .service-content p {
   max-width: 21ch;
+  color: #596778;
+
+  font-size: 22px;
+  font-family: "Poppins";
+  font-weight: 400;
 }
