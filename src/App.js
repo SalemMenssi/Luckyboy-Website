@@ -28,7 +28,7 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <ScrollAnimation animateOnce animateIn="zoomInDown">
+      {/* <ScrollAnimation animateOnce animateIn="zoomInDown">
         <h2 id="about">About Us</h2>
         <p
           style={{
@@ -42,15 +42,16 @@ function App() {
           high-quality kayaks and paddles are perfect for a fun and exciting
           adventure on the water.
         </p>
+      </ScrollAnimation> */}
+      <Features />
+      <ScrollAnimation animateOnce animateIn="bounceInRight">
+        <Break />
       </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="bounceInLeft">
         <Products />
       </ScrollAnimation>
+
       <ScrollAnimation animateOnce animateIn="bounceInRight">
-        <Break />
-      </ScrollAnimation>
-      <Features />
-      <ScrollAnimation animateOnce animateIn="fadeIn">
         <Services />
       </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeIn">

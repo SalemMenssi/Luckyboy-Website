@@ -6,6 +6,8 @@
   height: 100vh;
   margin: 7em 12%;
 }
+.features p {
+}
 h2 {
   font-family: "Nunito";
   font-style: normal;
@@ -49,7 +51,7 @@ p {
   font-size: 24px;
   line-height: 33px;
   text-align: center;
-  color: #4bb4ff;
+  color: #f68a72;
   margin: 10px 0;
 }
 .features-box .feature p {

@@ -3,62 +3,39 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #f7f9fc;
 }
 .services-box {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-image: url(../../assets/serviceBG.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  clip-path: ellipse(99% 57% at 50% 44%);
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
 }
 .service {
-  background-image: url(../../assets/service.png);
-  width: 15em;
-  height: 65%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 40%;
   display: flex;
-  justify-content: center;
-  align-items: end;
-  border-radius: 1em;
-  box-shadow: 0 0 15px #444;
-  position: relative;
-  overflow: hidden;
-  transition: 0.2s;
-}
-.services-box .service:nth-child(2) {
-  background-image: url(../../assets/service1.png);
-}
-.services-box .service:nth-child(3) {
-  background-image: url(../../assets/service2.png);
-}
-.services-box .service:nth-child(4) {
-  background-image: url(../../assets/service3.png);
-}
-.service::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(360deg, #000000db, #00000000 60%);
-}
-.service h4 {
-  color: #fff;
-  margin: 0.8em;
-  text-align: center;
-  font-family: Ubuntu;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  z-index: 10;
+  margin: 5vh 1em;
+  transition: 0.3s;
 }
 .service:hover {
-  transform: translateY(-1em);
+  transform: translateX(20px);
+  transition: 0.3s;
+}
+.service img {
+  margin-right: 2%;
+  border-radius: 25px;
+}
+.service .service-content {
+}
+.service-content h4 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #f68a72;
+  margin-left: 5%;
+}
+.service-content p {
+  max-width: 21ch;
 }

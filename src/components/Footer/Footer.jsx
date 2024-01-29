@@ -99,10 +99,10 @@ const Footer = () => {
             />
           </defs>
           <g className="parallax">
-            <use xlinkHref="#gentle-wave" x="48" y="7" fill="#e6dfcb33" />
-            <use xlinkHref="#gentle-wave" x="48" y="0" fill="#e6dfcb73" />
-            <use xlinkHref="#gentle-wave" x="48" y="3" fill="#e6dfcba6" />
-            <use xlinkHref="#gentle-wave" x="48" y="5" fill="#e6dfcbd9" />
+            <use xlinkHref="#gentle-wave" x="48" y="7" fill="#FEE6C233" />
+            <use xlinkHref="#gentle-wave" x="48" y="0" fill="#FEE6C273" />
+            <use xlinkHref="#gentle-wave" x="48" y="3" fill="#FEE6C2a6" />
+            <use xlinkHref="#gentle-wave" x="48" y="5" fill="#FEE6C2d9" />
           </g>
         </svg>
       </div>

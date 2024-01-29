@@ -8,14 +8,19 @@ const Products = () => {
   return (
     <div id="activities" className="products">
       <h2>Our Activities</h2>
-
+      <p>
+        We offer a wide variety of activities, including different styles to
+        different skill levels and interests
+      </p>
       <div className="products-box">
         <div className="product">
           <img src={product} alt="product" />
           <h4>Surf</h4>
           <p>
-            Surfing is a thrilling and adrenaline-pumping water sport that
-            involves riding waves on a surfboard
+            Welcome to our kayak and paddle rental shop, where we offer you the
+            chance to discover the beauty of nature in a whole new way. Our
+            high-quality kayaks and paddles are perfect for a fun and exciting
+            adventure on the water.
           </p>
         </div>
         <div className="product">
