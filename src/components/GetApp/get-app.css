@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin-block: 5em;
 }
 .GetApp p {
   transform: translateY(-10vh);
@@ -16,15 +17,20 @@ span {
 }
 .GetApp h2 {
   font-size: 72px;
+  margin-block: 5vh;
 }
 .GetApp .btn-box {
   display: flex;
   justify-content: center;
+  width: 35%;
+  margin-block: 2em;
 }
 .GetApp .btn-box a {
   display: flex;
   justify-content: center;
+  width: 20em;
+  margin-inline: 1em;
 }
 .GetApp .btn-box a img {
-  width: 60%;
+  width: 100%;
 }

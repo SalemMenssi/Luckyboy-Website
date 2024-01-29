@@ -1,15 +1,19 @@
 .break {
   display: flex;
   align-items: center;
-  height: 70vh;
-  background: #b0d3f0;
+  height: 85vh;
+  background: #fff3e0;
+  margin-top: 40vh;
+  overflow: hidden;
 }
 .break img {
   height: 100%;
+  width: 50%;
+  clip-path: ellipse(100% 100% at 0% 50%);
 }
 .break .content {
-  transform: translateX(55%);
-  width: 28%;
+  transform: translateX(20%);
+  width: 30%;
 }
 .break .content h4 {
   font-family: "Nunito";
@@ -19,7 +23,7 @@
   margin: 0;
   /* Brown */
 
-  color: #5c3d2e;
+  color: #596778;
 }
 .break .content p {
   font-family: "Nunito";
@@ -29,5 +33,5 @@
 
   /* Brown */
 
-  color: #5c3d2e;
+  color: #596778;
 }

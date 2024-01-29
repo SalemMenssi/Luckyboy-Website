@@ -1,23 +1,20 @@
 import "./home.css";
 import React from "react";
-import video from "../../assets/landpage.mp4";
+import playStore from "../../assets/playStore.png";
+import appStore from "../../assets/appStore.png";
 
 const Home = () => {
   return (
     <div className="home">
-      <video
-        className="land"
-        src={video}
-        loop
-        autoPlay
-        muted
-        playsInline
-      ></video>
-      <h2>Lucky boy</h2>
+      <h2>LuckyBoy</h2>
       <h3>Explore the beauty of the sea</h3>
       <div className="btn-home-container">
-        <a href="#">Discover</a>
-        <a href="#">Products</a>
+        <a href="#">
+          <img src={playStore} alt="playStore" />
+        </a>
+        <a href="#">
+          <img src={appStore} alt="appStore" />
+        </a>
       </div>
     </div>
   );

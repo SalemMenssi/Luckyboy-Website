@@ -1,5 +1,5 @@
 .Navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   display: flex;
@@ -7,8 +7,23 @@
   align-items: center;
   height: 20vh;
   z-index: 2;
+  transition: 0.7s;
+}
+.chaged-color {
+  background: #0066ff8a;
+  height: 10vh;
+  box-shadow: -5px 7px 35px #000;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.Navbar img {
+  width: 2.5em;
+  margin-inline-end: 0.5em;
+  /* transform: rotateZ(272deg); */
 }
 .Navbar h1 {
+  display: flex;
+  align-items: center;
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
@@ -47,14 +62,21 @@ ul li a:hover::before {
 }
 .get-app {
   padding: 12px 32px;
-  background: #a2d9ff;
+  background: #ffd466;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
   font-family: "Nunito", sans-serif;
-  transition: 0.2s;
+  border-radius: 40px;
+  transition: 0.4s;
+}
+.chaged-color .get-app {
+  box-shadow: 0 0 5px #ffd466;
 }
 .get-app:hover {
-  background: #6ac1ff;
+  background: #ffb700;
+}
+.chaged-color .get-app:hover {
+  box-shadow: 0 0 5px #ffb700;
 }

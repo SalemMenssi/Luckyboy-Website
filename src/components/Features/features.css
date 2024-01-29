@@ -12,7 +12,7 @@ h2 {
   font-weight: 700;
   font-size: 56px;
   text-align: center;
-  color: #2d2424;
+  color: #5ac2e3;
   margin: 12vh 0 0 0;
 }
 p {
@@ -36,7 +36,10 @@ p {
   align-items: center;
 }
 .features-box .feature img {
-  width: 34px;
+  width: 5em;
+}
+.features-box .feature:hover img {
+  animation: tilt-shaking 1s ease-in;
 }
 .features-box .feature h4 {
   font-family: "Nunito";
@@ -57,4 +60,21 @@ p {
   text-align: center;
   margin: 19px 0;
   color: #bdbdbd;
+}
+@keyframes tilt-shaking {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(5px, 5px) rotate(5deg);
+  }
+  50% {
+    transform: translate(0, 0) rotate(0eg);
+  }
+  75% {
+    transform: translate(-5px, 5px) rotate(-5deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
 }

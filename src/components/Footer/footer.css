@@ -1,10 +1,9 @@
 .footer {
-  max-height: 70vh;
-  min-height: 65vh;
+  max-height: 60vh;
+  min-height: 60vh;
   position: relative;
-  background: #a2d9ff;
+  background: #3c84ac;
   margin-top: 32vh;
-  margin-bottom: 10vh;
 }
 .footer h5 {
   position: absolute;
@@ -15,8 +14,13 @@
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 16px;
+  text-align: center;
+  background: #e6dfcb;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .head {
   position: absolute;
@@ -28,30 +32,6 @@
   transform: translateY(-10%);
 }
 
-.footer-content .row {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  height: 32vh;
-}
-.footer-content .row h2 {
-  margin: 0;
-  /* font-family: 'OpenSans'; */
-  font-size: 32px;
-  line-height: 35px;
-  text-transform: uppercase;
-  color: #fff;
-  text-align: start;
-  letter-spacing: 2px;
-}
-.footer-content .row .li {
-  list-style: none;
-  left: 20px;
-  position: relative;
-  font-size: 22px;
-  line-height: 24px;
-  color: rgba(0, 0, 0, 0.54);
-}
 .waves-box {
   position: absolute;
   width: 100%;
@@ -90,6 +70,116 @@
 .parallax > use:nth-child(4) {
   animation-delay: -5s;
   animation-duration: 20s;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 10em;
+  padding-block: 1em;
+  height: 21em;
+}
+
+.leftf p {
+  color: #fff;
+}
+.comp {
+  width: 15em;
+}
+.def {
+  font-size: 1rem;
+  color: #fff;
+  font-family: DM Sans;
+  text-shadow: 1px 1px 1px #000;
+}
+.leftf p {
+  font-size: 1rem;
+  max-width: 16em;
+  margin-top: 3em;
+}
+.centerf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.folow {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 16em;
+  margin-block: 1em;
+}
+.ico {
+  margin-inline: 1em;
+  margin-block: 0.5em;
+}
+.iconn {
+  transition: 0.3s;
+}
+.iconn:hover {
+  fill: #fff;
+}
+
+.rightf {
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.link-foot {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  max-width: 26em;
+  flex-wrap: wrap;
+  align-items: center;
+
+  padding: 0;
+}
+.link-foot li {
+  list-style: none;
+  padding-inline: 1em;
+  margin-block: 0.3em;
+  text-decoration: none;
+  color: #fefefe;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 1rem;
+  font-style: normal;
+
+  letter-spacing: 0.35px;
+}
+
+.link-foot li:nth-child(1) {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+.copywrite {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+.drone-gif {
+  width: 11em;
+}
+
+@media (max-width: 70em) {
+  .footer {
+    flex-direction: column;
+    height: 103vh;
+    align-items: center;
+  }
 }
 
 @keyframes move-forever {

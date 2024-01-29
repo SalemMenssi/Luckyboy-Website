@@ -1,6 +1,6 @@
 import React from "react";
 import "./break.css";
-import breakImg from "../../assets/break.png";
+import breakImg from "../../assets/break.jpg";
 
 const Break = () => {
   return (

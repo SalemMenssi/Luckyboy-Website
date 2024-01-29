@@ -8,6 +8,11 @@
   position: relative;
   top: 0;
   overflow: hidden;
+  background-image: url(../../assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: ellipse(100% 62% at 50% 35%);
 }
 video {
   width: 100%;
@@ -17,7 +22,7 @@ video {
   filter: brightness(0.8);
 }
 .home h2 {
-  font-family: "Nunito";
+  font-family: "Original Surfer", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -26,7 +31,7 @@ video {
 
   color: #ffffff;
 
-  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 1px 14.3px rgba(0, 0, 0, 0.58);
 }
 .home h3 {
   font-family: "Nunito";
@@ -42,27 +47,10 @@ video {
 }
 .btn-home-container {
   margin-top: 50px;
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-around;
 }
-.btn-home-container a {
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
-
-  color: #ffffff;
-  text-decoration: none;
-
-  padding: 18px 32px;
-
-  background: #95a5a5;
-  border-radius: 40px;
-}
-.btn-home-container a:last-child {
-  border: 2px solid #ffffff;
-  border-radius: 40px;
-  background: none;
+.btn-home-container a img {
+  width: 15em;
 }

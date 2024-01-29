@@ -1,16 +1,14 @@
 import React from "react";
 import "./products.css";
 import product from "../../assets/product.png";
+import product1 from "../../assets/product1.png";
+import product2 from "../../assets/product2.png";
 
 const Products = () => {
   return (
     <div id="products" className="products">
-      <h2>Products</h2>
-      <p>
-        We offer a wide variety of Products, including different styles and
-        sizes that cater to different skill levels and interests, so that you
-        can find the perfect equipment to suit your needs and preferences.
-      </p>
+      <h2>Our Activities</h2>
+
       <div className="products-box">
         <div className="product">
           <img src={product} alt="product" />
@@ -21,19 +19,20 @@ const Products = () => {
           </p>
         </div>
         <div className="product">
-          <img src={product} alt="product" />
-          <h4>Surf</h4>
+          <img src={product1} alt="product" />
+          <h4>Kayak</h4>
           <p>
-            Surfing is a thrilling and adrenaline-pumping water sport that
-            involves riding waves on a surfboard
+            Kayaking is an exhilarating and unique way to explore the great
+            outdoors, offering a perspective on nature that you simply can't get
+            from land
           </p>
         </div>
         <div className="product">
-          <img src={product} alt="product" />
-          <h4>Surf</h4>
+          <img src={product2} alt="product" />
+          <h4>Paddle</h4>
           <p>
-            Surfing is a thrilling and adrenaline-pumping water sport that
-            involves riding waves on a surfboard
+            The sense of freedom and tranquility that comes with paddling your
+            way through the water is truly unmatched
           </p>
         </div>
       </div>

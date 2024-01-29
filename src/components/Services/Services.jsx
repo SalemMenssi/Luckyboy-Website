@@ -9,44 +9,16 @@ const Services = () => {
       <p>To enjoy our services , get the app </p>
       <div className="services-box">
         <div className="service">
-          <img src={service} alt="service" />
-          <div className="service-content">
-            <h4>Blog</h4>
-            <p>
-              Eget mattis viverra in lorem dictum consequat etiam non
-              pellentesque mauris diamprice ore
-            </p>
-          </div>
+          <h4>Store</h4>
         </div>
         <div className="service">
-          <img src={service} alt="service" />
-          <div className="service-content">
-            <h4>Store</h4>
-            <p>
-              Eget mattis viverra in lorem dictum consequat etiam non
-              pellentesque mauris diamprice ore
-            </p>
-          </div>
+          <h4>Reservation</h4>
         </div>
         <div className="service">
-          <img src={service} alt="service" />
-          <div className="service-content">
-            <h4>Online reservation</h4>
-            <p>
-              Eget mattis viverra in lorem dictum consequat etiam non
-              pellentesque mauris diamprice ore
-            </p>
-          </div>
+          <h4>Events</h4>
         </div>
         <div className="service">
-          <img src={service} alt="service" />
-          <div className="service-content">
-            <h4>Events</h4>
-            <p>
-              Eget mattis viverra in lorem dictum consequat etiam non
-              pellentesque mauris diamprice ore
-            </p>
-          </div>
+          <h4>Blog</h4>
         </div>
       </div>
     </div>

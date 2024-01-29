@@ -1,6 +1,11 @@
 import "./features.css";
 import React from "react";
-import f1 from "../../assets/Rocket.png";
+import f1 from "../../assets/image 4.png";
+import f2 from "../../assets/image 3.png";
+import f3 from "../../assets/image 9.png";
+import f4 from "../../assets/image 8.png";
+import f5 from "../../assets/image 6.png";
+import f6 from "../../assets/image 5.png";
 
 const Features = () => {
   return (
@@ -23,7 +28,7 @@ const Features = () => {
           </p>
         </div>
         <div className="feature">
-          <img src={f1} alt="logo" />
+          <img src={f2} alt="logo" />
           <h4>Equipment</h4>
           <p>
             We offer a wide range of kayaks and paddles to cater to different
@@ -31,7 +36,7 @@ const Features = () => {
           </p>
         </div>
         <div className="feature">
-          <img src={f1} alt="logo" />
+          <img src={f3} alt="logo" />
           <h4>Expert staff</h4>
           <p>
             Our knowledgeable staff are passionate about kayaking and
@@ -39,7 +44,7 @@ const Features = () => {
           </p>
         </div>
         <div className="feature">
-          <img src={f1} alt="logo" />
+          <img src={f4} alt="logo" />
           <h4>Convenience</h4>
           <p>
             Our online reservations, flexible rental periods, and easy pickup
@@ -48,7 +53,7 @@ const Features = () => {
           </p>
         </div>
         <div className="feature">
-          <img src={f1} alt="logo" />
+          <img src={f5} alt="logo" />
           <h4>Safety</h4>
           <p>
             We prioritize safety above all else, offering life jackets and other
@@ -57,7 +62,7 @@ const Features = () => {
           </p>
         </div>
         <div className="feature">
-          <img src={f1} alt="logo" />
+          <img src={f6} alt="logo" />
           <h4>Location</h4>
           <p>
             Our shop is located in an ideal spot that offers easy access to a
