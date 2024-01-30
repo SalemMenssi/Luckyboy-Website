@@ -48,3 +48,33 @@
   text-align: start;
   margin-left: 5%;
 }
+@media (max-width: 70em) {
+  .services {
+    height: auto;
+  }
+  .services-box {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .service {
+    margin-block: 3em 0;
+    width: 100%;
+  }
+  .service img {
+    width: 50%;
+  }
+  .service .service-content {
+    display: flex;
+    flex-direction: column;
+    z-index: 12;
+    justify-content: space-around;
+  }
+  .service-content h4 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  .service-content p {
+    margin: 0;
+    font-size: 16px;
+  }
+}

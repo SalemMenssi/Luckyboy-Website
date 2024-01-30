@@ -177,9 +177,46 @@
 
 @media (max-width: 70em) {
   .footer {
+    position: static;
+    max-height: 118vh;
+    min-height: 118vh;
+    margin: 0;
+  }
+  .head {
+    display: none;
+  }
+  .footer-content {
+    transform: none;
+    height: auto;
     flex-direction: column;
-    height: 103vh;
-    align-items: center;
+    padding-inline: 0;
+  }
+  .leftf {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .comp {
+    width: 10em;
+  }
+  .leftf p {
+    font-size: 1rem;
+  }
+  .rightf {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .waves-box {
+    position: relative;
+    bottom: 0;
+    /* height: 13em; */
+    transform: scaleY(0.5);
+  }
+  .footer h5 {
+    position: relative;
+    transform: none;
+    margin: 0;
+    bottom: 3.1em;
   }
 }
 

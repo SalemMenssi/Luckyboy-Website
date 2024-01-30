@@ -61,3 +61,34 @@
   font-size: 22px;
   font-family: "Poppins";
 }
+@media (max-width: 70em) {
+  .products {
+    height: auto;
+    margin-bottom: 0;
+  }
+  .products p {
+    margin-block: 2em;
+  }
+  .products-box {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+  }
+  .product {
+    height: 20em;
+    width: 15em;
+    margin-bottom: 3em;
+  }
+  .product img {
+    background-size: cover;
+    height: 10em;
+  }
+  .product h4 {
+    font-size: 20px;
+  }
+  .product p {
+    font-size: 16px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+}

@@ -22,3 +22,8 @@ code {
 ::-webkit-scrollbar {
   display: none;
 }
+@media (max-width: 70em) {
+  * {
+    overflow-x: hidden;
+  }
+}

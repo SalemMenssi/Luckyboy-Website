@@ -6,7 +6,7 @@
   justify-content: space-around;
   align-items: center;
   height: 20vh;
-  z-index: 2;
+  z-index: 20;
   transition: 0.7s;
 }
 .chaged-color {
@@ -79,4 +79,25 @@ ul li a:hover::before {
 }
 .chaged-color .get-app:hover {
   box-shadow: 0 0 5px #ffb700;
+}
+@media (max-width: 70em) {
+  .Navbar {
+    height: 10vh;
+    justify-content: space-between;
+  }
+  .chaged-color {
+    height: 8vh;
+  }
+  .Navbar h1 {
+    margin-left: 1em;
+    font-size: 16px;
+  }
+  ul {
+    display: none;
+  }
+  .get-app {
+    margin-right: 1em;
+    font-size: 13px;
+    padding: 8px 10px;
+  }
 }

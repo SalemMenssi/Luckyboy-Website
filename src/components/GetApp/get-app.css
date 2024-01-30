@@ -38,3 +38,37 @@ span {
 .GetApp .btn-box a img {
   width: 100%;
 }
+@media (max-width: 70em) {
+  .GetApp {
+    height: auto;
+  }
+  .GetApp h2 {
+    font-size: 3rem;
+  }
+  .GetApp span {
+    width: 40%;
+  }
+  .phone-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  .phone-box img {
+    width: 30%;
+    height: 75%;
+  }
+  .phone-box img:nth-child(2) {
+    transform: scale(1.2);
+  }
+  .GetApp .btn-box {
+    flex-direction: column;
+    margin-inline: 0;
+    width: 100%;
+    align-items: center;
+  }
+  .GetApp .btn-box a {
+    width: 15em;
+    margin-bottom: 2em;
+  }
+}
