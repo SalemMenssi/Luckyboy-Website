@@ -178,9 +178,10 @@
 @media (max-width: 70em) {
   .footer {
     position: static;
-    max-height: 118vh;
-    min-height: 118vh;
+    max-height: 160vh;
+    min-height: 133vh;
     margin: 0;
+    overflow: hidden;
   }
   .head {
     display: none;
@@ -208,7 +209,7 @@
   }
   .waves-box {
     position: relative;
-    bottom: 0;
+    bottom: -3em;
     /* height: 13em; */
     transform: scaleY(0.5);
   }
@@ -216,7 +217,7 @@
     position: relative;
     transform: none;
     margin: 0;
-    bottom: 3.1em;
+    bottom: 0em;
   }
 }
 
