@@ -1,10 +1,10 @@
 .GetApp {
-  height: 75vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin-block: 5em;
+  margin-block: 8em;
 }
 .GetApp p {
   transform: translateY(-10vh);
