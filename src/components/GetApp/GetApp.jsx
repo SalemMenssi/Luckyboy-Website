@@ -9,7 +9,7 @@ import "./get-app.css";
 const GetApp = () => {
   return (
     <div id="GetApp" className="GetApp">
-      <h2>Get the App !</h2>
+      <h2>Grab the Lucky Boy App</h2>
       <span />
       <div className="phone-box">
         <img src={phone1} alt="phone" />
@@ -20,7 +20,7 @@ const GetApp = () => {
         <a href="#">
           <img src={playStore} alt="play Store" />
         </a>
-        <a href="#">
+        <a href="https://apps.apple.com/fr/app/luckyboy-tn/id6478055794">
           <img src={appStore} alt="app Store" />
         </a>
       </div>

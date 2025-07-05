@@ -6,12 +6,11 @@ const Break = () => {
   return (
     <div className="break">
       <div className="content">
-        <h4>The Best way to see Tunisia</h4>
+        <h4>The Best way to explore Tunisia</h4>
         <p>
-          Whether you're an experienced kayaker or a beginner looking to try
-          something new, we have the equipment and expertise to make your
-          experience unforgettable.start exploring the natural wonders of the
-          water!
+          Whether you're a seasoned paddler or just dipping your paddle in for
+          the first time, Lucky Boy Tunisia has everything you need for an
+          unforgettable sea adventure.
         </p>
       </div>
     </div>

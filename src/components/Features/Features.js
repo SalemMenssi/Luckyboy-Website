@@ -12,12 +12,11 @@ const Features = () => {
   return (
     <div id="features" className="features">
       <ScrollAnimation animateOnce animateIn="zoomInDown">
-        <h2>The smoothest Ride</h2>
+        <h2>Discover the Sea Like Never Before</h2>
         <p>
-          Welcome to our kayak and paddle rental shop, where we offer you the
-          chance to discover the beauty of nature in a whole new way. Our
-          high-quality kayaks and paddles are perfect for a fun and exciting
-          adventure on the water.
+          Glide through Sidi Bousaid’s crystal-clear waters with
+          Lucky Boy Tunisia. Rent kayaks, paddleboards, or surf gear — all at
+          your fingertips.
         </p>
       </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="slideInUp">

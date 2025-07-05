@@ -2,15 +2,15 @@ import React from "react";
 import "./products.css";
 import product from "../../assets/product.png";
 import product1 from "../../assets/product1.png";
-import product2 from "../../assets/product2.png";
+import product2 from "../../assets/product3.jpg";
 
 const Products = () => {
   return (
     <div id="activities" className="products">
       <h2>Our Activities</h2>
       <p>
-        We offer a wide variety of activities, including different styles to
-        different skill levels and interests
+        We offer a wide range of sea activities designed for every style, skill
+        level, and sense of adventure.
       </p>
       <div className="products-box">
         <div className="product">

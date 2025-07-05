@@ -8,10 +8,11 @@
   position: relative;
   top: 0;
   overflow: hidden;
-  background-image: url(../../assets/bg.png);
+  background-image: url(../../assets/newbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: 10vh;
   clip-path: ellipse(100% 62% at 50% 35%);
 }
 video {

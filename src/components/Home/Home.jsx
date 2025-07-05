@@ -13,7 +13,7 @@ const Home = () => {
         <a href="#">
           <img src={playStore} alt="playStore" />
         </a>
-        <a href="#">
+        <a href="https://apps.apple.com/fr/app/luckyboy-tn/id6478055794">
           <img src={appStore} alt="appStore" />
         </a>
       </div>
